@@ -1,0 +1,40 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'san-serif';
+  background-color: brown;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+nav li {
+  color: black;
+  display: inline;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+  padding-top: 1em;
+  background-color: coral;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: rgb(218, 102, 60);
+}
+
+.selected {
+  background-color: rgb(247, 155, 122);
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  color: white;
+}
