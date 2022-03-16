@@ -1,6 +1,7 @@
 body {
   font-family: 'Franklin Gothic Medium', 'san-serif';
   background-color: brown;
+  color: rgb(236, 227, 211);
 }
 
 nav ul {
@@ -36,5 +37,37 @@ nav li:hover {
 h1 {
   text-align: center;
   font-size: 5em;
-  color: white;
 }
+
+h3 {
+  font-weight: lighter;
+}
+
+ul#list li {
+  list-style-type: none;
+  text-align: center;
+}
+
+img {
+  width: 190px;
+  height: 270px;
+}
+
+#list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.flashy {
+  font-style: italic;
+}
+
+.best {
+  font-weight: 1000;
+}
+
+h2 {
+  text-align: center;
+}
+
